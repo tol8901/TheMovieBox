@@ -1,7 +1,7 @@
 # TheMovieBox
 This learning project represents a web-page, where there is a catalog of movies (which are loaded dynamically from the server).
 
-Screenshots of the web-site you can see below:
+Screenshots:
 
 ![Screenshot_1](https://user-images.githubusercontent.com/39213432/90137168-ea504100-dd7d-11ea-81d1-b51177a58414.png)
 
