@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Movies</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger">
+                <div></div>
+            </div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="#log-in">LOG IN</a></li> <!--class="active" -->
+                            <li><a href="#sign-up">SIGN UP</a></li> 
+                            <li><a href="#trending">Trending</a></li> 
+                            <li><a href="#top-rated">Top Rated</a></li>
+                            <li><a href="#new-arrivals">New Arrivals</a></li>
+                            <li><a href="#genre">Genre +</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header class="page-header">
+            <div class="page-header-upper-block">
+                <div class="page-header-upper-block-logo">
+                    <span class="page-header-upper-block-logo__logo_light">
+                        THEMOVIEBOX
+                    </span>
+                </div>
+                <div class="page-header-upper-block-sign-in-block">
+                    <div class="search-icon-container">
+                        <span class="material-icons md-light">
+                            search
+                        </span>
+                    </div>
+                    <button class="button button_transparent button__log-in">LOG IN</button>
+                    <button class="button button_filled button__sign-up">SIGN UP</button>
+                </div>
+            </div>
+            <div class="page-header-lower-block">
+                <div class="page-header-lower-block-movie-block">
+                    <div class="header-movie">
+                        <p class="header-movie__name_dark">WRATH OF THE TITANS</p>
+                        <div class="header-movie__about-movie">
+                            <p class="header-movie__genres">Fantasy Animation Family</p>
+                            <p class="header-movie__vertical-bar">|</p>
+                            <p class="header-movie__duration">Duration: 1h 52m</p>
+                        </div>
+                    </div>
+                    <div class="header-movie-controls">
+                        <button class="button button_filled button__watch-movie">WATCH MOVIE</button>
+                        <button class="button button_framed button__view-info">VIEW INFO</button>
+                        <button class="button button_transparent button__add-to-wishlist">+ ADD TO WISHLIST</button>
+                    </div>
+                </div>
+                <div class="page-header-lower-block-rating-block-container">
+                    <p class="rating-block-description">
+                        <span class="rating-block-description__header">Rating</span>
+                        <span class="rating-block-description__based-stats">
+                            based on 
+                            <span class="rating-block-description__based-stats_actual">3.546</span>
+                            reviews
+                        </span>
+                    </p>
+                    <div class="rating-block-stars">
+                        <div class="rating-block-stars__visualization-container">
+                            <div class="rating-block-stars__visualization-star">
+                                <span class="material-icons md-36">
+                                    star
+                                </span>
+                            </div>
+                            <div class="rating-block-stars__visualization-star star-1">
+                                <span class="material-icons md-36">
+                                    star
+                                </span>
+                            </div>
+                            <div class="rating-block-stars__visualization-star star-2">
+                                <span class="material-icons md-36">
+                                    star
+                                </span>
+                            </div>
+                            <div class="rating-block-stars__visualization-star star-3">
+                                <span class="material-icons md-36">
+                                    star_half
+                                </span>
+                            </div>
+                            <div class="rating-block-stars__visualization-star star-4">
+                                <span class="material-icons md-36">
+                                    star_border
+                                </span>
+                            </div>
+                        </div>
+                        <div class="rating-block-stars__quantity-of-stars">3.4</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="navigation-panel-container sticky-top">
+            <ul class="topnav">
+                <li><a href="#trending">Trending</a></li> <!--class="active" -->
+                <li><a href="#top-rated">Top Rated</a></li>
+                <li><a href="#new-arrivals">New Arrivals</a></li>
+                <li class="dropdown">
+                    <a href="#genre" class="dropbtn">
+                        Genre 
+                        <span class="material-icons arrow-down">
+                            arrow_drop_down
+                        </span>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#">Horror</a>
+                        <a href="#">Action</a>
+                        <a href="#">Romaantic</a>
+                        <a href="#">Adventures</a>
+                        <a href="#">Western</a>
+                        <a href="#">Comedy</a>
+                        <a href="#">Thriller</a>
+                        <a href="#">Detective</a>
+                        <a href="#">Documentary</a>
+                        <a href="#">For family</a>
+                        <a href="#">Cartoons</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="representation-content">
+                <div class="representation-content__type_tile"
+                href="#view-type-window">
+                    <span class="material-icons md-36">
+                        view_module
+                    </span>
+                </div>
+                <div class="representation-content__type_list md-light"
+                href="#view-type-list">
+                    <span class="material-icons md-36">
+                        view_list
+                    </span>
+                </div>
+            </div>
+        </nav>  
+        <main class="main-container" id="root">
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="logo-and-footer-menu-container">
+                <div class="footer-logo-block">
+                    <p class="footer-logo">
+                        THEMOVIEBOX
+                    </p>
+                </div>
+                <div class="footer-menu-block">
+                    <ul class="footer-menu">
+                        <li class="footer-menu__item"><a href="#">About</a></li>
+                        <li class="footer-menu__item"><a href="#">Movies</a></li>
+                        <li class="footer-menu__item"><a href="#">Ratings</a></li>
+                        <li class="footer-menu__item"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-hr">
+            <div class="copyright-and-social-media-container">
+                <div class="copyright-block">
+                    <small>&copy; Designed by Milan Houter. All rights reserved.</small>
+                </div>
+                <div class="social-media-block">
+                    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                    <div class="elfsight-app-204674ae-6d13-46bf-a815-cf87deedccc0"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>

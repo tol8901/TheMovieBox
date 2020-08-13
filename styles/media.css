@@ -1,0 +1,106 @@
+@media screen and (max-width: 1199.98px) {
+  .page-header {
+    justify-content: space-between;
+  }
+
+  .wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 48vw);
+    grid-gap: 15px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .page-header {
+    justify-content: space-between;
+  }
+
+  .page-header-lower-block-rating-block-container {
+    display: none;
+  }
+
+  .wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 70vw);
+    grid-gap: 15px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .page-header {
+    justify-content: space-between;
+  }
+
+  .page-header-lower-block-rating-block-container {
+    display: none;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .menu-wrap {
+    display: block;
+  }
+
+  .page-header {
+    min-height: 100vh;
+    max-width: 100vh;
+    justify-content: space-around;
+  }
+  .page-header-upper-block {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .page-header-upper-block-logo {
+    margin-top: 50px;
+  }
+  .page-header-upper-block-logo__logo_light {
+    font-size: 45px;
+  }
+  .page-header-lower-block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page-header-lower-block-rating-block-container {
+    display: none;
+  }
+
+  .page-header-upper-block-sign-in-block {
+    display: none;
+  }
+
+  .header-movie-controls {
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+  }
+
+  .button__watch-movie {
+    margin-left: 0;
+  }
+  .button__view-info {
+    margin-left: 0;
+  }
+  .button__add-to-wishlist {
+    margin-left: 0;
+  }
+
+  .navigation-panel-container {
+    display: none;
+  }
+
+  .logo-and-footer-menu-container {
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .wrapper-grid {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 550px);
+    grid-gap: 25px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
