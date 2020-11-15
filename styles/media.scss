@@ -1,56 +1,47 @@
 @import "./variables.scss";
 
-//--HEADER--
-
 // Large devices (desktops, less than 1200px)
 @media screen and (max-width: 1199.98px) { 
-    //TODO -- change the styles for the rule late
     .page-header{
-        // height: 100vh;
         justify-content: space-between;
     }
+
     .wrapper-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(8, 48vw);
         grid-gap: 15px;
     }
-    
  }
-
 
 // Medium devices (tablets, less than 992px)
 @media screen and (max-width: 991.98px) { 
-    //TODO -- change the styles for the rule late
     .page-header{
-        // height: 100vh;
         justify-content: space-between;
     }
+
     .page-header-lower-block-rating-block-container {
         display: none;
     }
+
     .wrapper-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(8, 70vw);
         grid-gap: 15px;
     }
-
  }
-
 
 // Small devices (landscape phones, less than 768px)
 @media screen and (max-width: 767.98px) { 
     .page-header{
-        // height: 100vh;
         justify-content: space-between;
     }
+
     .page-header-lower-block-rating-block-container {
         display: none;
     }
-
 }
-
 
 @media screen and (max-width: 575.98px) { 
     .menu-wrap {
@@ -61,20 +52,9 @@
         min-height: 100vh;
         max-width: 100vh;
         justify-content: space-around;
-        // border: 1px solid lightgreen;
-        // align-items: center;
-
         &-upper-block {
             flex-direction: column-reverse;
             align-items: center;
-            // height: 2rem;
-            // &-sign-in-block {
-            //     display: none;
-
-            //     // width: 100%;
-            //     // display: flex;
-            //     // justify-content: space-around;
-            // }
             &-logo {
                 margin-top: 50px;
                 &__logo_light {
@@ -85,61 +65,52 @@
         &-lower-block {
             flex-direction: column;
             align-items: center;
-
         }
     }
+
     .page-header-lower-block-rating-block-container {
         display: none;
     }
-    .page-header-upper-block-sign-in-block {
-        // border: 2px solid pink;
-        display: none;
 
+    .page-header-upper-block-sign-in-block {
+        display: none;
     }
+
     .header-movie {
         &-controls {
             height: 14rem;
-            // margin: 1.5rem 0;
             display: flex;
             flex-direction: column;
             justify-content: stretch;
         }
     }
+
     .button {
-        // height: 100px;
         &__watch-movie {
             margin-left: 0;
-            // height: 100px;
         }
         &__view-info {
             margin-left: 0;
-
         }
         &__add-to-wishlist {
             margin-left: 0;
-
         }
     }
+
     .navigation-panel-container {
         display: none;
     }
-    // .footer-menu {
-    //     flex-direction: column;
-    // }
+
     .logo-and-footer-menu-container {
         flex-direction: column;
         padding-top: 10px;
     }
+
     .wrapper-grid {
         margin-top: 15px;
-        // width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(8, 550px);
         grid-gap: 25px;
     }
-
 }
-
-
-

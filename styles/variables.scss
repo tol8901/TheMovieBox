@@ -1,27 +1,14 @@
-//---COLOURS---
+// Colours
 $light-colour-main: #ffffff;
 $text-opacity: 0.7;
 $border-opacity: 0.7;
-
 $main-background-color: #f8f8f8;
 $main-fill-colour: #ff0079;
 $second-colour: #030c02;
 $third-colour: #80818a;
 $footer-logo-color: #494c62;
 $footer-hr-color: #f8f8f8;
-
-//---FONTS---
-$main-font-family: 'Source Sans Pro', sans-serif;
-$logo-font-size: 30px;
-$logo-font-size-second: 45px;
-
-//sizes
-$main-width: 2800px;
-$movie-width: ($main-width / 5 + 4px);
-$content-width: ($main-width - 340px + 15px);
-
 $test-frame-color: darkgreen;
-//colors
 $whole-page-background-color: #f8f8f8;
 $footer-color: #ffffff;
 $footer-hr-color: #f8f8f8;
@@ -32,9 +19,13 @@ $genre-color: #babbc3;
 $movie-name-color: #494c62;
 $background-color-dark: rgb(41, 35, 35);
 $movie-year-color: #babbc3;
-//fonts
-$main-font-family: "Source Sans Pro", sans-serif;
-//font-sizes
+
+// Fonts
+$main-font-family: 'Source Sans Pro', sans-serif;
+$logo-font-size: 30px;
+$logo-font-size-second: 45px;
+
+//Font-sizes
 $font-size-logo: 50px;
 $font-size-lower-menu: 30px;
 $font-size-copyright-social-box: 24px;
@@ -45,3 +36,7 @@ $movie-description: 35px;
 $font-size-logo: 60px;
 $font-size-main-movie-name: 90px;
 
+//Sizes
+$main-width: 2800px;
+$movie-width: ($main-width / 5 + 4px);
+$content-width: ($main-width - 340px + 15px);

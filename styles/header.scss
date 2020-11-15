@@ -1,8 +1,6 @@
 @import "./variables.scss";
 
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
-// .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
-/* Rules for sizing the icon. */
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
@@ -13,44 +11,30 @@
 }
 
 .page-header {
-    // border: 1px solid gray;
-
     min-height: 90vh;
     max-width: 100vw;
-
     padding: 10px 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
-
     background-image: url(../assets/featured-image-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
     font-family: $main-font-family;
-
-
     &-upper-block {
-        // border: 1px dashed aqua;
-
         display: flex;
         justify-content: space-between;
-
-
         &-logo {
-            // margin: 40px;
             &__logo {
                 &_light {
                     color: $light-colour-main;
                     font-size: $logo-font-size;
-                    // border: 1px solid lightgreen;
                 }
             }
         }
         &-sign-in-block {
-            // border: 1px solid white;
             display: flex;
             justify-content: flex-end;
             align-items: center;
@@ -58,11 +42,8 @@
     }
 
     &-lower-block {
-        // border: 1px dashed pink;
-
         display: flex;
         justify-content: space-between;
-
     }
 }
 
@@ -81,10 +62,8 @@
     margin: 10px;
     padding: 2px 20px;
     height: 80%;
-
     border-radius: 4px;
     border: 0;
-    // box-shadow: none;
     &:hover {
         cursor: pointer;
     }
@@ -119,6 +98,7 @@
 
     }
 }
+
 .header-movie {
     &__name_dark {
         color: $light-colour-main;
@@ -131,7 +111,6 @@
         display: flex;
     }
     &__genres {
-        // margin: 0 10px;
         word-spacing: 10px;;
     }
     &__vertical-bar {
@@ -162,6 +141,7 @@
     margin: 1.5rem;
     padding: 1rem;
 }
+
 .rating-block-description {
     &__header {
         color: $light-colour-main;
@@ -171,6 +151,7 @@
         opacity: $border-opacity;
     }
 }
+
 .rating-block-stars {
     display: flex;
     justify-content: space-between;

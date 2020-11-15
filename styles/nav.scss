@@ -2,48 +2,19 @@
 
 .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
-
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
 
 .navigation-panel-container {
-    // border: 1px solid green;
     border-bottom: 1px solid lightgray;
     background-color: $main-background-color;
     margin: 0 auto;
     min-height: 10vh;
     max-width: 90%;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    // align-items: center;
 }
-// .nav-list {
-//     display: flex;
-//     align-items: center;
-//     // margin-top: 1.5rem;
-//     height: 100%;
-//     &__item {
-//         margin-right: 3rem;
-//         font-family: $main-font-family;
-//         font-size: 1.25rem;
-//        height: 100%;
-//     }
-//     &__item:hover {
-//         border-bottom: 2px solid $main-fill-colour;
-//     }
-//     &__item a {
-//         color: $third-colour;
-//         text-decoration: none;
-//     }
-//     &__item a:hover {
-//         color: $main-fill-colour;
-//         text-decoration:none; 
-//         cursor:pointer;  
-//     }
-
-// }
 
 .sticky-top {
     position: sticky;
@@ -52,11 +23,9 @@
 }
 
 .topnav {
-    // margin: 0 auto;
     display: flex;
     min-height: 10vh;
     max-width: 90%;
-    // border-bottom: 2px solid lightgray;
     background-color: $main-background-color;
     overflow: hidden;
     & a {
@@ -69,7 +38,6 @@
         text-decoration: none;
         font-size: 17px;
         border-bottom: 3px solid transparent;
-        // margin: auto 0;
         &:hover {
             color: $main-fill-colour;
         }
@@ -84,43 +52,10 @@
         }
         &:active {
             border-bottom: 3px solid $second-colour;
-            // color: $second-colour;
         }
     }
     
 }
-
-// .topnav a {
-//     height: 100%;
-//     float: left;
-//     display: block;
-//     color: $third-colour;
-//     text-align: center;
-//     padding: 25px 16px;
-//     text-decoration: none;
-//     font-size: 17px;
-//     border-bottom: 3px solid transparent;
-//     // margin: auto 0;
-// }
-
-// .topnav li:hover {
-//     border-bottom: 3px solid $main-fill-colour;
-//     color: $main-fill-colour;
-// }
-
-// .topnav li:active {
-//     border-bottom: 3px solid $second-colour;
-//     // color: $second-colour;
-// }
-
-// .topnav a:hover {
-//     color: $main-fill-colour;
-// }
-// .topnav a:active {
-//     color: $second-colour;
-// }
-
-
 
 .representation-content {
     display: flex;
@@ -135,7 +70,6 @@
         &:active {
             color: $second-colour;
         }
-
     }
     &__type_list {
         cursor: pointer;

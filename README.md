@@ -1,8 +1,8 @@
 # TheMovieBox
-This learning project represents a web-page, where there is a catalog of movies (which are loaded dynamically from the server).
-You can see it at the link: https://tol8901.github.io/TheMovieBox/
-
-Screenshots:
+This is a learning project, which represents a catalog of movies (which are loaded dynamically from the server).
+# Is available at the link
+https://tol8901.github.io/TheMovieBox/
+# Screenshots:
 
 ![Screenshot_1](https://user-images.githubusercontent.com/39213432/90137168-ea504100-dd7d-11ea-81d1-b51177a58414.png)
 

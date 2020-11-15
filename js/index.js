@@ -5,9 +5,7 @@ class Movie {
         this.orderNumber = orderNumber;
         this.currentMovie = this.dataObject[this.orderNumber]
     }
-    init() {
-        this.render();
-    };
+
     render(mountPoint) {
         const generalMovieElement = document.createElement('div');
         generalMovieElement.classList.add('wrapper-grid__item');
@@ -58,9 +56,7 @@ class MoviesCatalogue {
         this.mountPointName = mountPointName;
         this.dataObject = dataObject;
     }
-    init() {
-        this.render();
-    };
+    
     render() {
         const wrapperGrid = document.createElement('div');
         wrapperGrid.classList.add('wrapper-grid');
